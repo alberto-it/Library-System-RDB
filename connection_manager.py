@@ -7,7 +7,7 @@ class DatabaseConnectionManager:
     def connect(self):
         try:
             self.cnx = mysql.connector.connect(
-            user='root', password='passW11!', host='127.0.0.1', database='library_management'
+            user='root', password='add your pw here', host='127.0.0.1', database='library_management'
             )
         except mysql.connector.Error as err: print("Error connecting to database:", err)
             
